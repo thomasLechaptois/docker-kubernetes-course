@@ -41,7 +41,7 @@ jobs:
         # Azure credentials i.e. output of `az ad sp create-for-rbac --sdk-auth`
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         # Resource Group Name
-        resource-group: rfv-demo-aks-rg
+        resource-group: refinitiv-rg
         # AKS Cluster Name
-        cluster-name: rfv-demo-aks
+        cluster-name: refinitiv-aks
 
